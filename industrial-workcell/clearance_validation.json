@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "wearCycle": 28,
+  "minimumClearanceMillimeters": 30.0,
+  "maxJointSpeedRadiansPerSecond": 0.65,
+  "jointErrorDegrees": 3.12
+}

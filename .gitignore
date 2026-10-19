@@ -1,0 +1,29 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and generated output
+node_modules/
+build/
+dist/
+coverage/
+
+# Runtime output and temporary files
+*.log
+*.tmp
+*.bak
+*.before-*.ttt
+readme-update/
+.DS_Store
+Thumbs.db
+
+# Recordings use Git LFS via .gitattributes

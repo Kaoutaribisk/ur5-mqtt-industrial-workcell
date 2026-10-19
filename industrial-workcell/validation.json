@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "cycles": 28,
+  "maxError": 3.12,
+  "stages": [
+    "approach_machine",
+    "approach_pick",
+    "approach_place",
+    "approach_unload",
+    "clear_machine",
+    "discharging",
+    "feeding",
+    "idle",
+    "lift_in",
+    "lift_out",
+    "load_machine",
+    "maintenance",
+    "pick",
+    "place",
+    "processing",
+    "retract_machine",
+    "retract_out",
+    "unload_machine"
+  ],
+  "checks": [
+    "full production loop",
+    "wear onset",
+    "maintenance alarm",
+    "restart interlock",
+    "maintenance reset preserves totals",
+    "stop holds motion"
+  ]
+}
